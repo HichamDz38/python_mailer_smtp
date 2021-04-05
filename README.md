@@ -1,15 +1,15 @@
 # how to use
->>>python Smtp_Mailer.py
+>python Smtp_Mailer.py
 
 ## file structure
 
 - ### config.py
 this file has fours variable\n
-  >thread_limit = 4  		# the threading limit\n
-  >proxy = 0           	# 0: desactivate proxy, 1: activate proxy\n
+  >thread_limit = 4  		# the threading limit  
+  >proxy = 0           	# 0: desactivate proxy, 1: activate proxy  
   >smtpf = "smtp.txt"		# smtp accounts file path\n
-  >jobsf = "jobs.txt"		# job file path\n
-  >bodyf = "body.txt"		# body file path\n
+  >jobsf = "jobs.txt"		# job file path  
+  >bodyf = "body.txt"		# body file path  
   
 - ### smtpf
 this file hold the credential in the folowing format
@@ -22,7 +22,7 @@ this file hold the jobs (the emails to send), in the specific format, "we can ch
 - ### bodyf
 this file hold the dynamic message to send, it call dynamic because we have some variabls that change according to each job,
 these varibale are:\n
-  	'_From'     : it will replaced by the sender name\n
-	'_To'       : it will replaced by the receiver name \n
-	'_Femail'   : it will replaced by the sender email\n
-	'_Temail'   : it will replaced by the receiver email\n
+  	>'_From'     : it will replaced by the sender name  
+	>'_To'       : it will replaced by the receiver name  
+	>'_Femail'   : it will replaced by the sender email  
+	>'_Temail'   : it will replaced by the receiver email  
