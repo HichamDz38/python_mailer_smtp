@@ -5,7 +5,7 @@
 
 - ### config.py
 this file has fours variable  
-  >**thread_limit = 4  		# the threading limit  
+  >**thread_limit** = 4  		# the threading limit  
   >**proxy** = 0           	# 0: desactivate proxy, 1: activate proxy  
   >**smtpf** = "smtp.txt"		# smtp accounts file path  
   >**jobsf** = "jobs.txt"		# job file path  
