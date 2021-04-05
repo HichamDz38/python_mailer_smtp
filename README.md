@@ -1,0 +1,2 @@
+# python_mailer_smtp
+send_emails_with_python
