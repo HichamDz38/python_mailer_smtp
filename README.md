@@ -5,11 +5,11 @@
 
 ### config.py
 this file has fours variable\n
-  thread_limit = 4  		# the threading limit\n
-  proxy = 0           	# 0: desactivate proxy, 1: activate proxy\n
-  smtpf = "smtp.txt"		# smtp accounts file path\n
-  jobsf = "jobs.txt"		# job file path\n
-  bodyf = "body.txt"		# body file path\n
+  >thread_limit = 4  		# the threading limit\n
+  >proxy = 0           	# 0: desactivate proxy, 1: activate proxy\n
+  >smtpf = "smtp.txt"		# smtp accounts file path\n
+  >jobsf = "jobs.txt"		# job file path\n
+  >bodyf = "body.txt"		# body file path\n
   
 ### smtpf
 this file hold the credential in the folowing format
