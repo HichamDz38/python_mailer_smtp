@@ -22,7 +22,7 @@ this file hold the jobs (the emails to send), in the specific format, "we can ch
 - ### bodyf
 this file hold the dynamic message to send, it call dynamic because we have some variabls that change according to each job,
 these varibale are:  
-  	>> _From      : it will replaced by the sender name   
-	>> _To        : it will replaced by the receiver name  
-	>> _Femail    : it will replaced by the sender email  
-	>> _Temail    : it will replaced by the receiver email  
+  	> **_From**      : it will replaced by the sender name   
+	> **_To**        : it will replaced by the receiver name  
+	> **_Femail**    : it will replaced by the sender email  
+	> **_Temail**    : it will replaced by the receiver email  
